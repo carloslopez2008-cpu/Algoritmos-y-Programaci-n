@@ -1,0 +1,24 @@
+ #Carlos Emiliano López Salazar
+ """
+ Un vendedor recibe un sueldo base mas un 10% extra
+por comision de sus ventas. El desea saber cuanto
+dinero obtendra por concepto de comisiones por las 
+tres ventas que hizo en el mes y el total que recibirá
+en dicho periodo.
+"""
+porCom = 10
+
+print("Sueldo basico: ")
+sueBas = float(input()))
+print("Valor venta 1: ")
+valVen1 = float(input()))
+print("Valor venta 2: ")
+valVen2 = float(input()))
+print("Valor venta 3: ")
+valVen3 = float(input()))
+
+valCom = ((valVen1 + valVen2 + valVen3) * porCom)/100
+sueNet = sueBas + valCom
+
+print("valor de la comision: ", valCom)
+print("Sueldo neto: ", sueNet)
